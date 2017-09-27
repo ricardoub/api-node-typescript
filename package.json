@@ -1,0 +1,30 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "API desenvolvida utilizando TS, NODE, ES6, PostgreSQL e Sequelize",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/ts-node ./server/server.ts"
+  },
+  "keywords": [
+    "APi",
+    "TypeScript",
+    "Node",
+    "ES6",
+    "Postgres",
+    "Sequelize"
+  ],
+  "author": "Ricardo Bomfim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "http": "0.0.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0"
+  }
+}
